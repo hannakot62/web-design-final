@@ -25,6 +25,9 @@ header {
   margin-bottom: 40px;
   background-color: black;
 }
+header > * > a {
+  color: white;
+}
 
 footer > * > a {
   color: white;
