@@ -128,3 +128,7 @@ header {
 header > a {
   color: white;
 }
+
+footer > * > a {
+  color: white;
+}
