@@ -1,0 +1,129 @@
+* {
+  margin: 0 auto;
+}
+body {
+  background: rgb(0, 26, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 26, 62, 1) 0%,
+    rgba(143, 0, 0, 1) 100%
+  );
+  font-family: "Comfortaa", cursive;
+  color: white;
+}
+
+.pic {
+  background-image: url("../assets/Anna/annet.jpg");
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  border: 2px solid white;
+  margin: 30px;
+}
+.name {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 10px 0px 40px 0px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.head-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.corel-works > img {
+  width: 300px;
+  height: 400px;
+}
+
+.corel-works,
+.flash-works {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.corel,
+.flash {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.corel > h3,
+.phsh > h3,
+.flash > h3 {
+  margin: 30px 10px;
+}
+
+.phsh-works {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.phsh {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+#phsh1 {
+  height: 400px;
+  width: 300px;
+}
+
+#phsh2 {
+  height: 400px;
+  width: 750px;
+}
+
+#container1 > img,
+#container1 {
+  height: 393px;
+  width: 264px;
+}
+
+.comparison {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flash-works > video {
+  width: 350px;
+  height: 250px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 40px;
+  background-color: rgb(2, 0, 36);
+}
+
+header {
+  color: white;
+  padding: 40px 30px;
+  margin-bottom: 40px;
+  background-color: rgb(2, 0, 36);
+}
+
+header > a {
+  color: white;
+}
